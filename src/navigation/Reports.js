@@ -38,7 +38,7 @@ export default function Reports() {
   };
   return (
     <div className="reports" dir="rtl">
-      <h1>reports</h1>
+      <h1>דוחות</h1>
       <div >
         <label>מיין לפי: </label>
         <select onChange={sortBy}>

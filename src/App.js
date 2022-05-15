@@ -8,12 +8,14 @@ import Activity from './navigation/Activity';
 import ImportContacts from './navigation/ImportContacts';
 import Reports from './navigation/Reports';
 
+
 function App() {
   return (
     <BrowserRouter>
 <MainMenu></MainMenu>
     <Routes>
       <Route path="/yoman" element={<Yoman/>}></Route>
+    
       <Route path="/torimLehaiom" element={<TorimLehaiom/>}></Route>
       <Route path="/activity" element={<Activity/>}></Route>
       <Route path="/torimLehishur" element={<TorimLehishur/>}></Route>
